@@ -1,6 +1,6 @@
 //1. Çoklu giriş asal sayı bul
 
-function numbers(...number) {
+function findPrime(...number) {
     let total = 0;
     for (let i = 0; i < number.length; i++) {
         total = total + number[i];
@@ -29,7 +29,7 @@ console.log(text);
     
 }
 console.log("__________")
-numbers(2,5,8,21,13)
+findPrime(2,5,8,21,13)
 console.log("__________")
 
 //1.asal (deneme)
@@ -88,12 +88,14 @@ for(i=1; i<perfectNumber; i++)
  }
  console.log("__________")
 
- //5. 1000'e kadarki tüm asal sayıları listele
 
+ 
+ //5. Prime Numbers from 1 to 1000
+ console.log("Prime Numbers from 1 to 1000")
 
  var c,k,isPrime; //değişkenler
 
- for(c =1 ; c<1000 ; c++ )
+ for(c = 2; c<1000 ; c++ )
  {
      isPrime = true; //Asal sayı için boolean değişkeni 
      for( k=2; k<c ; k++)
@@ -108,4 +110,4 @@ for(i=1; i<perfectNumber; i++)
        console.log(c); 
      }
    
- }
+}
