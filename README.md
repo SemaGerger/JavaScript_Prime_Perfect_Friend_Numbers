@@ -1,0 +1,1 @@
+# JavaScript_Prime_Perfect_Friend_Numbers
